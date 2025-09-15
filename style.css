@@ -37,4 +37,26 @@ footer div ul {
     display: flex;
     flex-direction: column;
 }
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: gray;
+}
 /* END Header // Footer */
+
+/* Home Page */
+
+#herobackground {
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+    background-image: url("./assets/pexels-s-j-108387745-12093423.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px) brightness(0.6);
+}
+
+/* END Home Page */
